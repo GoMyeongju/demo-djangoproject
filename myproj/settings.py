@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog', #추가해주어야 app 사용할 수 있음.
+    #,의 경우 굳이 추가 안 해주어도 되지만 추후 추가될 경우를 생각해서 
 ]
 
 MIDDLEWARE = [
