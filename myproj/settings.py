@@ -128,6 +128,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 #아래 코드는 heroku 상에서만 동작
 #몽키패칭
+
 import sys
 if 'win' not in sys.platform and 'darwin' != sys.platform:
     import django_heroku
